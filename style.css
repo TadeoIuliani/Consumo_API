@@ -9,3 +9,63 @@ body{
     background-color: antiquewhite;
     color: #333;
 }
+
+h1{
+    text-align: center;
+    margin: 20px;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.pelicula{
+    display: flex;
+    flex-wrap: wrap;
+    width: 17%;
+    height: auto;
+    margin: 15px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.pelicula img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+    /* padding: 10px; */
+}
+
+.pelicula h3{
+    /* text-align: center; */
+    width: 80%;
+    margin-left: 5%;
+    height: auto;
+}
+
+.pelicula h4{
+    margin-left: 5%;
+    color:grey;
+}
+
+
+.paginacion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.paginacion button{
+    width: 45%;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+

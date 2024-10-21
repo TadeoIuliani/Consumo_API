@@ -43,6 +43,7 @@ const cargarPeliculas = async ()=>{
                 peliculas += `<div class="pelicula"> 
                                 <img class="poster" src="https://image.tmdb.org/t/p/w500${e.poster_path}">
                                 <h3 class="titulo" >${e.title}</h3>
+                                <h4 class="fecha">${e.release_date}</h4>
                             </div>`
                 document.querySelector(".contenedor").innerHTML = peliculas;
             });
